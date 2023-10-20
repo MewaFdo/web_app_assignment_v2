@@ -1,0 +1,28 @@
+/*--------------------------------- PAGE 1 ------------------------------------------>*/
+
+/* DESKTOP NAV */
+  
+@media screen and (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
+
+/* HAMBURGER MENU */
+
+@media only screen and (min-width: 768px) {
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+    left: -200px;
+    position: absolute;
+    top: 50px;
+  }
+}
